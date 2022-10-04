@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+html, body{
+    margin: 0;
+    max-width: 100vw;
+    max-height: 110vw;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+h2{
+    text-align: center;
+    height: 5vh;
+    margin: 3vw;
+    margin-top : 0;
+    padding: 2vh;
+    color: white;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+}
+
+.section-1 div{
+    height: 90vh;
+    gap: 1vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1 img{
+    width: 50vw;
+    
+}
+
+.date{
+    font-size: 1vw;
+    align-self: start;
+}
+
+.section-1-title{
+    font-size: 4vw;
+}
+
+.section-1, .section-3{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    background-image: url(img/section-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-3{
+    background-image: url(img/section-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20vh;
+}
+.section-2{
+    position: relative;
+    width: 100vw;
+    top: -10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.red{
+    background-color: red;
+    height: 30vw;
+    text-align: right;
+    width: 80vw;
+}
+
+.section-2-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 2vw;
+    font-size: 2vw;  
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    gap: 10px;
+    text-align: center;
+    top: 4vw;
+    font-size: 1.6vw;
+    font-weight: 200;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    padding: 2vw;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position:relative;
+    top: 40%;
+    width: auto;
+    padding: 30px;
+    
+    margin-top: -50px;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+  }
+  
+  /* Container for image text */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+
+.section-3{
+    height: 40vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    gap: -5vw;
+}
+.hak, .kewajiban{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+.h-button,.k-button, .f-button{
+    display: flex;
+    font-size: 3vw;
+    margin-left: 5vw;
+    width: fit-content;
+}
+
+.h-button:hover,.k-button:hover{
+    color: red;
+}
+.definition{
+    text-align: justify;
+    align-items: center;
+    font-size: 1vw;
+    margin-right: 5vw;
+    width: auto;
+}
+
+span{color: red}
+
+.faktor{
+    display: flex;
+    gap: 5vw;
+    font-family: 'Inter', sans-serif;
+    margin: 3vw;
+    background-color: red;
+    position: relative;
+    top: -20vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: rgb(255, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 10vw;
+    position: relative;
+    top: -15vw;
+    text-align: right;
+    right: -30vw;
+    z-index: 999;
+    
+}
+.pendukung, .penghambat{
+    background-color: red;
+    color: white;
+    text-align: justify;
+    padding: 2vw;
+    font-size: 1.2vw;
+}
+
+.kesimpulan{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 0 15vw 0 15vw;
+    font-size: small;
+    text-align: justify;
+    height: max-content;
+    position: relative;
+    top: -15vw;
+    height: 10vw;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+}
+
+div{
+    color: rgb(0, 0, 0);
+    margin: 5vw;height: 60vh;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: smaller;
+    text-align: justify;
+}
+footer{
+    margin: 0;
+    display: flex;
+    color: black;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
